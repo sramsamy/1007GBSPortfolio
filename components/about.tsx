@@ -3,7 +3,8 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import introImage from "@/public/meAndBella.jpeg";
+// import introImage from "@/public/meAndBella.jpeg";
+import introImage from "@/public/newProfilePic.png";
 import { GiTriangleTarget } from "react-icons/gi";
 import { recentTechs } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
@@ -14,7 +15,7 @@ export default function About() {
 	return (
 		<motion.section
 			ref={ref}
-			className="px-4 mb-14 md:px-[18rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28 "
+			className="h-screen px-4 mb-14 sm:mb-40 md:px-[18rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28 "
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.175 }}
@@ -67,14 +68,13 @@ export default function About() {
 						</ul>
 					</div>
 				</div>
-				<div className="md:w-1/3 relative">
+				<div className="md:w-[40%] relative">
 					<div
 						id="box"
-						className="relative rounded-xl border-2 border-blue-700 overflow-hidden"
+						className="relative rounded-xl overflow-hidden ml-8"
 					>
 						<Image src={introImage} alt="Me and Bella" />
-						<div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-blue-700 to-transparent opacity-50"></div>
-						<div className="absolute bottom-0 right-0 w-full h-full bg-gradient-to-r from-blue-700 to-transparent opacity-50"></div>
+						
 					</div>
 				</div>
 			</div>

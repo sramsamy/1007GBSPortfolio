@@ -72,7 +72,7 @@ export const experiencesData = [
 		title: "Software Developer @ Agri-Storage & Logistics",
 		location: "Gold Coast, QLD",
 		description:
-			"I Designed and devloped a fully functional booking management system for a key player in the agri-cultural sector",
+			"I Designed and devloped a fully functional booking management system for a key player in the agri-cultural sector.",
 		icon: React.createElement(CgWorkAlt),
 		date: "Nov 2024 - Present",
 	},
