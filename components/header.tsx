@@ -12,6 +12,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Header() {
 	const { activeSection, setActiveSection, setTimeOfLastClick } =
 		useActiveSectionContext();
+	const filteredLinks = links.filter((link) => link.name !== "Contact");
 
 	return (
 		<header className="z-[999] relative px-4">
@@ -29,7 +30,7 @@ export default function Header() {
 			>
 				<nav className=" flex fixed top-0 h-12 py-2 sm:h-[initial] sm:py-0 justify-end">
 					<ul className="flex w-[22rem flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-slate-400 sm:w-[initial sm:flex-nowrap sm:gap-5 mr-5 text-base">
-						{links.map((link) => (
+						{filteredLinks.map((link) => (
 							<motion.li
 								className="h-3/4 flex items-center justify-center relative"
 								key={link.hash}

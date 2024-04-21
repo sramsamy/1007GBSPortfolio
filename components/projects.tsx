@@ -12,7 +12,7 @@ export default function Projects() {
 	return (
 		<section ref={ref} id="projects" className="scroll-mt-28 mb-48 ">
 			<div className="flex items-center gap-4 text-center">
-				<h1 className="text-blue-600 text-3xl mb-8">02.</h1>
+				<h1 className="text-blue-600 text-3xl mb-8">03.</h1>
 				<SectionHeading>Projects</SectionHeading>
 			</div>
 			<div className="mt-14">

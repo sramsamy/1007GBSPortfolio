@@ -17,7 +17,7 @@ export default function Experience() {
 	return (
 		<section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
 			<div className="flex items-center gap-4 text-center mb-28">
-				<h1 className="text-blue-600 text-3xl mb-8">04.</h1>
+				<h1 className="text-blue-600 text-3xl mb-8">05.</h1>
 				<SectionHeading>Experience</SectionHeading>
 			</div>
 			<VerticalTimeline lineColor="">
