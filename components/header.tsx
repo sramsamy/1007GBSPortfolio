@@ -29,7 +29,7 @@ export default function Header() {
 				animate={{ y: 0, opacity: 1 }}
 			>
 				<nav className=" flex fixed top-0 h-12 py-2 sm:h-[initial] sm:py-0 justify-end">
-					<ul className="flex w-[22rem flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-slate-400 sm:w-[initial sm:flex-nowrap sm:gap-5 mr-5 text-base">
+					<ul className="flex w-[22rem flex-wrap items-center justify-center gap-y-1 text-sm font-medium text-slate-400 sm:w-[initial sm:flex-nowrap sm:gap-5 mr-5 text-base">
 						{filteredLinks.map((link) => (
 							<motion.li
 								className="h-3/4 flex items-center justify-center relative"

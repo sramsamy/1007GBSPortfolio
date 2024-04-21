@@ -32,7 +32,7 @@ export default function CareerPlan() {
 		<motion.section
 			ref={ref}
 			id="careerPlan"
-			className="h-screen px-4 mb-14 sm:mb-40 md:mt-28 md:px-[14rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28"
+			className="px-4 mb-14 sm:mb-40 md:mt-28 md:px-[12rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28"
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.175 }}
@@ -41,7 +41,7 @@ export default function CareerPlan() {
 				<h1 className="text-blue-600 text-3xl mb-8">02.</h1>
 				<SectionHeading>Career Plan</SectionHeading>
 			</div>
-			<p className="text-xl">
+			<p className="text-l">
 				Navigate the following tabs to view my comprehensive career plan, where
 				I strategically chart my path towards success.
 			</p>
@@ -92,8 +92,8 @@ export default function CareerPlan() {
 					transition={{ delay: 1.5 }}
 				>
 					{tab === "selfAwareness" && (
-						<div className="w-[70%] mx-auto px-4">
-							<p className="text-xl tracking-wide">
+						<div className="w-[80%] mx-auto px-4">
+							<p className="text-l tracking-wide">
 								To understand the complexities of my professional trajectory,
 								self-awareness is an important trait to develop as it allows us
 								to find a career that matches our interests, values, skills,
@@ -121,46 +121,46 @@ export default function CareerPlan() {
 								worksheet, I’ve been able to explore my core values. The
 								following values resonate deeply with me:{" "}
 							</p>
-							<ul className="grid grid-cols-3 md:grid-cols-3 gap-2 mt-4 mb-4 ">
-								<li className="flex items-center text-xl">
+							<ul className="grid grid-cols-3 md:grid-cols-3 gap-2 mt-4 mb-4 whitespace-nowrap">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Diversity
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-=l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Adventurous Spirit
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Problem-Solving
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Moral fulfillment
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
-									Continuous Learning
+									Life Learner
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Teamwork
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Honesty
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Analytical Skills
 								</li>
-								<li className="flex items-center text-xl">
+								<li className="flex items-center text-l">
 									<GiTriangleTarget className="text-blue-600 rotate-90 mr-2 text-xs" />
 									Respect for Others
 								</li>
 							</ul>
 							<p
-								className="text-xl tracking-wide
+								className="text-l tracking-wide
 "
 							>
 								Through introspection, I’ve scrutinised past achievements to
@@ -190,7 +190,7 @@ export default function CareerPlan() {
 					{tab === "exploreYourOptions" && (
 						<div className="w-[80%] mx-auto px-4">
 							<p
-								className="text-xl tracking-wide
+								className="text-l tracking-wide
 "
 							>
 								To thoroughly explore my career options and ensure a
@@ -245,7 +245,7 @@ export default function CareerPlan() {
 					{tab === "experienceAndInsight" && (
 						<div className="w-[80%] mx-auto px-4">
 							<p
-								className="text-xl tracking-wide
+								className="text-l tracking-wide
 "
 							>
 								Gaining insight and experience within my industry is invaluable
@@ -294,7 +294,7 @@ export default function CareerPlan() {
 					{tab === "evidenceYourSkills" && (
 						<div className="w-[80%] mx-auto px-4">
 							<p
-								className="text-xl tracking-wide
+								className="text-l tracking-wide
 "
 							>
 								It’s important to make sure my skills are well-evidenced and
@@ -337,7 +337,7 @@ export default function CareerPlan() {
 					{tab === "developNetworks" && (
 						<div className="w-[80%] mx-auto px-4">
 							<p
-								className="text-xl tracking-wide
+								className="text-l tracking-wide
 "
 							>
 								To expand my professional network, I’ve actively engaged in
@@ -345,7 +345,7 @@ export default function CareerPlan() {
 							</p>
 
 							<ul className="mt-4 mb-4">
-								<li className="text-xl">
+								<li className="text-l">
 									<span className="text-blue-600">01.</span> Last year I joined
 									the{" "}
 									<a
@@ -360,7 +360,7 @@ export default function CareerPlan() {
 									with peers and industry professionals, supporting meaningful
 									relationships within the technology area.{" "}
 								</li>
-								<li className="text-xl">
+								<li className="text-l">
 									<span className="text-blue-600">02.</span> Through the{" "}
 									<a
 										href="https://www.griffith.edu.au/careers-employment/industry-mentoring-program"
@@ -374,7 +374,7 @@ export default function CareerPlan() {
 									professionals, enriching my network and gaining valuable
 									industry insights.
 								</li>
-								<li className="text-xl">
+								<li className="text-l">
 									<span className="text-blue-600">03.</span> Attending events
 									like the Anonyome internship open house and the Westpac
 									Hackathon has enabled me to forge connections with industry
@@ -383,7 +383,7 @@ export default function CareerPlan() {
 								</li>
 							</ul>
 							<p
-								className="text-xl tracking-wide
+								className="text-l tracking-wide
 "
 							>
 								Moving forward, I am to further leverage platforms like LinkedIn
@@ -394,7 +394,6 @@ export default function CareerPlan() {
 					)}
 				</motion.div>
 			</div>
-			
 		</motion.section>
 	);
 }

@@ -18,7 +18,7 @@ export default function About() {
 	return (
 		<motion.section
 			ref={ref}
-			className="px-4 mb-14 sm:mb-40 md:px-[18rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28 "
+			className="px-4 mb-14 sm:mb-40 md:px-[12rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28 "
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.175 }}
@@ -29,7 +29,7 @@ export default function About() {
 				<SectionHeading>About me</SectionHeading>
 			</div>
 			<div className="flex flex-col md:flex-row justify-center md:justify-start gap-8 md:mt-14">
-				<div className="md:w-[50%] text-left text-xl">
+				<div className="md:w-[60%] text-left text-l">
 					<p className="mb-3">
 						After studying a degree in{" "}
 						<span className="font-medium">Biomedical Science</span>, I later
@@ -87,7 +87,7 @@ export default function About() {
 					understanding of my experience and education history, as well as my
 					interests and skills.{" "}
 				</p>
-				<div className="max-w-[25%] whitespace-nowrap">
+				<div className="max-w-[30%] whitespace-nowrap">
 					<a
 						href="https://www.linkedin.com/in/sachin-ramsamy/"
 						target="_blank"
