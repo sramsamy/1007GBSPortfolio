@@ -28,7 +28,7 @@ export default function About() {
 				<h1 className="text-blue-600 text-3xl mb-8">01.</h1>
 				<SectionHeading>About me</SectionHeading>
 			</div>
-			<div className="flex flex-col md:flex-row justify-center md:justify-start gap-8 md:mt-14">
+			<div className="flex flex-col md:flex-row justify-center md:justify-start gap-8 md:mt-4">
 				<div className="md:w-[60%] text-left text-l">
 					<p className="mb-3">
 						After studying a degree in{" "}
