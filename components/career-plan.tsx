@@ -47,7 +47,7 @@ export default function CareerPlan() {
 			</p>
 			<div className="flex">
 				<motion.div
-					className="w-[20%] flex flex-col mt-8 gap-4"
+					className="w-[30%] flex flex-col mt-8 gap-4"
 					initial={{ opacity: 0, y: 100 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 1 }}
@@ -92,7 +92,7 @@ export default function CareerPlan() {
 					transition={{ delay: 1.5 }}
 				>
 					{tab === "selfAwareness" && (
-						<div className="w-[80%] mx-auto px-4">
+						<div className="w-[70%] mx-auto px-4">
 							<p className="text-xl tracking-wide">
 								To understand the complexities of my professional trajectory,
 								self-awareness is an important trait to develop as it allows us
