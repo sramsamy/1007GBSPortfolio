@@ -25,21 +25,21 @@ export default function Intro() {
 					<a
 						href="https://www.linkedin.com/in/sachin-ramsamy/"
 						target="_blank"
-						className="text-2xl text-slate-400 p-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:-translate-y-1 active:scale-105 transition"
+						className="text-xl text-slate-400 p-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:-translate-y-1 active:scale-105 transition"
 					>
 						<FiLinkedin />
 					</a>
 					<a
 						href="https://github.com/sramsamy"
 						target="_blank"
-						className="text-2xl text-slate-400 p-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:-translate-y-1 active:scale-105 transition"
+						className="text-xl text-slate-400 p-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:-translate-y-1 active:scale-105 transition"
 					>
 						<FiGithub />
 					</a>
 					<a
 						href="https://www.instagram.com/sachinramsamy__/"
 						target="_blank"
-						className="text-2xl text-slate-400 p-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:-translate-y-1 active:scale-105 transition"
+						className="text-xl text-slate-400 p-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:-translate-y-1 active:scale-105 transition"
 					>
 						<FiInstagram />
 					</a>
@@ -56,11 +56,11 @@ export default function Intro() {
 						{" "}
 						Sachin Ramsamy.
 					</p>
-					<p className="text-slate-300 font-bold text-7xl mb-8">
+					<p className="text-slate-300 font-bold text-6xl mb-8">
 						{" "}
 						Aspiring full-stack developer.
 					</p>
-					<p className=" text-slate-300 mb-4 text-xl">
+					<p className=" text-slate-300 mb-4 text-l">
 						I'm a student at{" "}
 						<span className="text-blue-600">Griffith University</span> who's
 						passion is to bridge
@@ -69,7 +69,7 @@ export default function Intro() {
 					</p>
 
 					<motion.div
-						className="flex items-center sm:flex-row gap-6 text-s font-medium"
+						className="flex items-center sm:flex-row gap-6 text-xs font-medium"
 						initial={{ opacity: 0, y: 100 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.1 }}
