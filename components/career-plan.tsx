@@ -32,7 +32,7 @@ export default function CareerPlan() {
 		<motion.section
 			ref={ref}
 			id="careerPlan"
-			className="h-screen px-4 mb-14 sm:mb-40 md:px-[14rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28"
+			className="h-screen px-4 mb-14 sm:mb-40 md:mt-28 md:px-[14rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28"
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.175 }}
@@ -394,6 +394,7 @@ export default function CareerPlan() {
 					)}
 				</motion.div>
 			</div>
+			
 		</motion.section>
 	);
 }

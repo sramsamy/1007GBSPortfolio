@@ -8,6 +8,9 @@ import introImage from "@/public/newProfilePic.png";
 import { GiTriangleTarget } from "react-icons/gi";
 import { recentTechs } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
+import { HiDownload } from "react-icons/hi";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 
 export default function About() {
 	const { ref } = useSectionInView("About");
@@ -15,7 +18,7 @@ export default function About() {
 	return (
 		<motion.section
 			ref={ref}
-			className="h-screen px-4 mb-14 sm:mb-40 md:px-[18rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28 "
+			className="px-4 mb-14 sm:mb-40 md:px-[18rem] py-8 md:py-0 md:mb-40 leading-8 text-center md:text-left scroll-mt-28 "
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.175 }}
@@ -69,13 +72,31 @@ export default function About() {
 					</div>
 				</div>
 				<div className="md:w-[40%] relative">
-					<div
-						id="box"
-						className="relative rounded-xl overflow-hidden ml-8"
-					>
+					<div id="box" className="relative rounded-xl overflow-hidden ml-8">
 						<Image src={introImage} alt="Me and Bella" />
-						
 					</div>
+				</div>
+			</div>
+			<div className="flex flex-col max-w-[75%]">
+				<p className="mt-10">
+					The link above will take you to my Linkedin profile (you can also
+					click the LinkedIn icon on the left of the page), showcasing my work
+					and education history. You will also see several groups that I have
+					joined, showing my active engagement within the software development
+					community. Feel free to explore my profile to gain a further
+					understanding of my experience and education history, as well as my
+					interests and skills.{" "}
+				</p>
+				<div className="max-w-[25%] whitespace-nowrap">
+					<a
+						href="https://www.linkedin.com/in/sachin-ramsamy/"
+						target="_blank"
+						download
+						className="group mt-8 flex items-center text-blue-600 border border-blue-600 rounded-md px-4 py-3 gap-2 outline-none focus:scale-110 hover:scale-110 hover:text-blue-600 hover:border-blue-500 hover:bg-black active:scale-105 transition"
+					>
+						View my LinkedIn{" "}
+						<FaExternalLinkAlt className="opacity-70 group-hover:translate-y-1 transition" />
+					</a>
 				</div>
 			</div>
 		</motion.section>
