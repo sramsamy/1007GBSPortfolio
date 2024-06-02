@@ -7,6 +7,7 @@ import portfolioImage from "@/public/portfolio.png";
 import workIntegratedLearningImage from "@/public/wil.png";
 import formulaOneImage from "@/public/f1.png";
 import gymAppImage from "@/public/gym2.png";
+import essayImage from "@/public/essayImage.png"
 
 export const links = [
 	{
@@ -144,11 +145,11 @@ export const projectsData = [
 		imageUrl: workIntegratedLearningImage,
 	},
 	{
-		title: "Gym Workout Tracker App",
+		title: "Future of Work Solutions Paper",
 		description:
-			"An app that provides an evidence-based workout routine that accommodates for individuals with busy lifestyles.",
-		tags: ["Ionic", "Angular", "Typescript"],
-		imageUrl: gymAppImage,
+			"My solutions paper which explores the positive and negative effects of globalisation on the future of work and within the technology industry.",
+		tags: ["Globalisation", "Technology", "1007GBS"],
+		imageUrl: essayImage,
 	},
 ] as const;
 
